@@ -9,6 +9,7 @@ const CreatePost = () => {
   const [form, setForm] = useState({
     name: '', prompt: '',  photo: ''
   })
+  const [generatingImages, setGeneratingImages] = useState(false)
   return (
     <div>CreatePost</div>
   )
