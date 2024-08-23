@@ -10,6 +10,7 @@ const CreatePost = () => {
     name: '', prompt: '',  photo: ''
   })
   const [generatingImages, setGeneratingImages] = useState(false)
+  const [loading, setLoading] = useState(false)
   return (
     <div>CreatePost</div>
   )
