@@ -11,6 +11,9 @@ const CreatePost = () => {
   })
   const [generatingImages, setGeneratingImages] = useState(false)
   const [loading, setLoading] = useState(false)
+  const handleSubmit = () => {
+    
+  }
   return (
     <section className='max-w-7xl mx-auto'>
        
