@@ -14,6 +14,10 @@ const CreatePost = () => {
   const handleSubmit = () => {
     
   }
+  const handleChange = (e) => {
+
+  }
+
   return (
     <section className='max-w-7xl mx-auto'>
        
