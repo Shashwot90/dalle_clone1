@@ -34,6 +34,14 @@ const CreatePost = () => {
               value={form.name}
               handleChange={handleChange}
             />
+            <FormField labelName="Prompt" 
+              type="text"
+              name="prompt"
+              placeholder="A plush toy robot sitting against yellow wall"
+              value={form.prompt}
+              handleChange={handleChange}
+              isSurpriseMe
+            />
           </div>
       </form>
     </section>
