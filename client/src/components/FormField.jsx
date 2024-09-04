@@ -10,7 +10,9 @@ const FormField = ({ labelName, type, name, placeholder, value, handleChange, is
           {labelName}
         </label>
         {isSurpriseMe && (
-          <button>
+          <button
+          type='button'
+          onClick={handleSurpriseMe}>
             
           </button>
         )}
