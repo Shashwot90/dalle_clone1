@@ -12,7 +12,8 @@ const FormField = ({ labelName, type, name, placeholder, value, handleChange, is
         {isSurpriseMe && (
           <button
           type='button'
-          onClick={handleSurpriseMe}>
+          onClick={handleSurpriseMe}
+          className='font-semibold'>
             
           </button>
         )}
