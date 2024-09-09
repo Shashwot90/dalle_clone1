@@ -24,7 +24,8 @@ const FormField = ({ labelName, type, name, placeholder, value, handleChange, is
         name={name}
         placeholder={placeholder}
         value={value}
-        
+        onChange={handleChange}
+        required
       />
     </div>
   )
