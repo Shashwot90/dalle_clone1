@@ -33,6 +33,7 @@ const FormField = ({ labelName, type, name, placeholder, value, handleChange, is
           <img
             src={form.photo} 
             alt={form.prompt}
+            className='w-full h-full object-contain'
             />
         )}
       </div>
