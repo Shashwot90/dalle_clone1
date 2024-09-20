@@ -35,6 +35,12 @@ const FormField = ({ labelName, type, name, placeholder, value, handleChange, is
             alt={form.prompt}
             className='w-full h-full object-contain'
             />
+        ) : (
+          <img 
+            src={preview}
+            alt='preview'
+            className=''
+          />
         )}
       </div>
 
