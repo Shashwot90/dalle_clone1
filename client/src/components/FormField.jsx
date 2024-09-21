@@ -39,7 +39,7 @@ const FormField = ({ labelName, type, name, placeholder, value, handleChange, is
           <img 
             src={preview}
             alt='preview'
-            className=''
+            className='w-9/12 h-9/12 object-contain opacity-40'
           />
         )}
       </div>
