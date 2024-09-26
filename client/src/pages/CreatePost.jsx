@@ -70,7 +70,11 @@ const CreatePost = () => {
         }
       </div>
           </div>
-          <div className="mt-5 flex gap-5"></div>
+          <div className="mt-5 flex gap-5">
+            <button
+             type='button'
+             onClick={generatingImages}></button>
+          </div>
       </form>
     </section>
   )
