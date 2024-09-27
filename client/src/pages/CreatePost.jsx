@@ -11,6 +11,9 @@ const CreatePost = () => {
   })
   const [generatingImages, setGeneratingImages] = useState(false)
   const [loading, setLoading] = useState(false)
+  const generateImage = () => {
+    
+  }
   const handleSubmit = () => {
     
   }
