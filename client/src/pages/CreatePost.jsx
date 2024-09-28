@@ -76,7 +76,9 @@ const CreatePost = () => {
           <div className="mt-5 flex gap-5">
             <button
              type='button'
-             onClick={generatingImages}></button>
+             onClick={generatingImages}>
+              {generateImage ? 'Generating...': 'Generate'}
+             </button>
           </div>
       </form>
     </section>
