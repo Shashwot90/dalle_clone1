@@ -76,7 +76,8 @@ const CreatePost = () => {
           <div className="mt-5 flex gap-5">
             <button
              type='button'
-             onClick={generatingImages}>
+             onClick={generatingImages}
+             className='text-white bg-green-700'>
               {generatingImg ? 'Generating...': 'Generate'}
              </button>
           </div>
