@@ -77,7 +77,7 @@ const CreatePost = () => {
             <button
              type='button'
              onClick={generatingImages}
-             className='text-white bg-green-700'>
+             className='text-white bg-green-700 font-medium rounded-md text-sm w-full sm:w-auto'>
               {generatingImg ? 'Generating...': 'Generate'}
              </button>
           </div>
