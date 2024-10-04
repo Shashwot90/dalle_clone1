@@ -81,6 +81,7 @@ const CreatePost = () => {
               {generatingImg ? 'Generating...': 'Generate'}
              </button>
           </div>
+          <div className="mt-10"></div>
       </form>
     </section>
   )
