@@ -81,7 +81,9 @@ const CreatePost = () => {
               {generatingImg ? 'Generating...': 'Generate'}
              </button>
           </div>
-          <div className="mt-10"></div>
+          <div className="mt-10">
+            <p>Once you have created the image you want, you can share it with others in the community.</p>
+          </div>
       </form>
     </section>
   )
