@@ -83,6 +83,7 @@ const CreatePost = () => {
           </div>
           <div className="mt-10">
             <p className='mt-2 text-[#666e75] text-[14px]'>Once you have created the image you want, you can share it with others in the community.</p>
+            <button></button>
           </div>
       </form>
     </section>
