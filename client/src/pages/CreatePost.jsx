@@ -83,7 +83,7 @@ const CreatePost = () => {
           </div>
           <div className="mt-10">
             <p className='mt-2 text-[#666e75] text-[14px]'>Once you have created the image you want, you can share it with others in the community.</p>
-            <button type='submit' className='mt-3 text-white bg-[#6469ff] font-medium rounded-md'>{loading ? 'Sharing...': 'Share with the community'}</button>
+            <button type='submit' className='mt-3 text-white bg-[#6469ff] font-medium rounded-md text-sm w-full sm:w-auto'>{loading ? 'Sharing...': 'Share with the community'}</button>
           </div>
       </form>
     </section>
